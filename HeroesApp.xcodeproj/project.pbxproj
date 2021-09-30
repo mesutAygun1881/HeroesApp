@@ -13,6 +13,8 @@
 		7C2DECD52705BD3B005BACEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2DECD32705BD3B005BACEA /* Main.storyboard */; };
 		7C2DECD72705BD3C005BACEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2DECD62705BD3C005BACEA /* Assets.xcassets */; };
 		7C2DECDA2705BD3C005BACEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2DECD82705BD3C005BACEA /* LaunchScreen.storyboard */; };
+		7C2DECE22705BF4B005BACEA /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DECE12705BF4B005BACEA /* HeroesViewController.swift */; };
+		7C2DECE42705BFCE005BACEA /* HeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DECE32705BFCE005BACEA /* HeroesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7C2DECD62705BD3C005BACEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C2DECD92705BD3C005BACEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C2DECDB2705BD3C005BACEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C2DECE12705BF4B005BACEA /* HeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		7C2DECE32705BFCE005BACEA /* HeroesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7C2DECD62705BD3C005BACEA /* Assets.xcassets */,
 				7C2DECD82705BD3C005BACEA /* LaunchScreen.storyboard */,
 				7C2DECDB2705BD3C005BACEA /* Info.plist */,
+				7C2DECE12705BF4B005BACEA /* HeroesViewController.swift */,
+				7C2DECE32705BFCE005BACEA /* HeroesModel.swift */,
 			);
 			path = HeroesApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C2DECD22705BD3B005BACEA /* ViewController.swift in Sources */,
+				7C2DECE42705BFCE005BACEA /* HeroesModel.swift in Sources */,
 				7C2DECCE2705BD3B005BACEA /* AppDelegate.swift in Sources */,
+				7C2DECE22705BF4B005BACEA /* HeroesViewController.swift in Sources */,
 				7C2DECD02705BD3B005BACEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
